@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.infos {
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  border: 3px solid black;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.square1 {
+  background-color: red;
+  width: 70px;
+  height: 70px;
+}
+
+.square2 {
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+}
+
+.square3 {
+  background-color: green;
+  width: 70px;
+  height: 70px;
+}
+
+.square4 {
+  background-color: yellow;
+  width: 70px;
+  height: 70px;
+}
+
+@media (min-width: 800px) {
+  .square1 {
+    display: none;
+  }
+}
+
+
+
+
+
+

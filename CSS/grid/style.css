@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.infos {
+  display: grid;
+  width: 50vw;
+  height: 50vh;
+  border: 3px solid black;
+  grid-template-areas:
+    "cont1 cont2 cont2"
+    "cont3 cont3 cont3"
+  ;
+}
+
+.container1 {
+  background-color: blue;
+  grid-area: cont1;
+}
+
+.container2 {
+  background-color: white;
+  grid-area: cont2;
+}
+
+.container3 {
+  background-color: red;
+  grid-area: cont3;
+}
+
